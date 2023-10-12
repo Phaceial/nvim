@@ -5,11 +5,7 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   use {
-<<<<<<< HEAD
 	  'nvim-telescope/telescope.nvim', tag = '0.1.3',
-=======
-	  'nvim-telescope/telescope.nvim', tag = '0.1.2',
->>>>>>> fd08e7fff79b5ed751b58ab05097fc03a12f9cdd
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
@@ -29,19 +25,13 @@ return require('packer').startup(function(use)
   ]]--
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
-<<<<<<< HEAD
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
 
   use {
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v3.x',
-=======
 
-  use {
-  'VonHeikemen/lsp-zero.nvim',
-  branch = 'v2.x',
->>>>>>> fd08e7fff79b5ed751b58ab05097fc03a12f9cdd
   requires = {
     -- LSP Support
     {'neovim/nvim-lspconfig'},             -- Required
