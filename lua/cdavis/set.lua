@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -27,3 +28,7 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
+=======
+
+require("cdavis.remap")
+>>>>>>> fd08e7fff79b5ed751b58ab05097fc03a12f9cdd

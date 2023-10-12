@@ -139,6 +139,7 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/cdavis278/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+<<<<<<< HEAD
   },
   undotree = {
     loaded = true,
@@ -149,6 +150,8 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/cdavis278/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+=======
+>>>>>>> fd08e7fff79b5ed751b58ab05097fc03a12f9cdd
   }
 }
 
