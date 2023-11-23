@@ -4,11 +4,19 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+<<<<<<< HEAD
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.4',
         -- or                            , branch = '0.1.x',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
+=======
+  use {
+	  'nvim-telescope/telescope.nvim', tag = '0.1.4',
+	  -- or                            , branch = '0.1.x',
+	  requires = { {'nvim-lua/plenary.nvim'} }
+  }
+>>>>>>> dacd8821bb85832d9a7d2cc4db7a752d00fe2d8e
 
     use({
         'sainnhe/gruvbox-material',
