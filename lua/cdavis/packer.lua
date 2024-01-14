@@ -4,23 +4,20 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
-<<<<<<< HEAD
-    use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.4',
-        -- or                            , branch = '0.1.x',
-        requires = { {'nvim-lua/plenary.nvim'} }
-    }
-=======
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.4',
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
->>>>>>> dacd8821bb85832d9a7d2cc4db7a752d00fe2d8e
 
     use({
         'sainnhe/gruvbox-material',
         config = function()
+            vim.g.gruvbox_material_better_performance = true
+            vim.g.gruvbox_material_background = 'hard'
+            vim.g.gruvbox_material_enable_bold = true
+            vim.g.gruvbox_material_enable_italic = true
+            vim.o.background = "dark"
             vim.cmd('colorscheme gruvbox-material')
         end
     })
@@ -48,8 +45,6 @@ return require('packer').startup(function(use)
             local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
             ts_update()
         end,}
-        use('nvim-treesitter/playground')
-        use('nvim-treesitter/nvim-treesitter-context')
         use('theprimeagen/harpoon')
         use('mbbill/undotree')
         use('tpope/vim-fugitive')

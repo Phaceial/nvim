@@ -17,6 +17,7 @@ vim.keymap.set("n", "<leader>svwm", function()
     require("vim-with-me").StopVimWithMe()
 end)
 
+vim.keymap.set("n", "<leader>gs", vim.cmd.Git);
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
