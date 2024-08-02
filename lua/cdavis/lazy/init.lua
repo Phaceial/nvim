@@ -4,7 +4,6 @@ return {
 		name = "plenary",
 	},
 
-    'theprimeagen/harpoon',
     'github/copilot.vim',
 
 }
