@@ -10,10 +10,12 @@ return {
 
     {
         "erikbackman/brightburn.vim",
+        name = "brightburn",
     },
 
     {
         "folke/tokyonight.nvim",
+        name = "tokyonight",
         lazy = false,
         opts = {},
         config = function()
